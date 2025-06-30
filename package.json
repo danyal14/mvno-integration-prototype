@@ -1,0 +1,19 @@
+{
+  "name": "mvno-integration-prototype",
+  "version": "1.0.0",
+  "description": "Prototype MVNO Intogration.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danyal14/mvno-integration-prototype.git"
+  },
+  "author": "danyal14",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danyal14/mvno-integration-prototype/issues"
+  },
+  "homepage": "https://github.com/danyal14/mvno-integration-prototype#readme"
+}
