@@ -4,6 +4,10 @@
   "description": "Prototype MVNO Intogration.",
   "main": "index.ts",
   "scripts": {
+    "build": "npm run remove-build && tsc && npm run copy-data",
+    "remove-build": "rm -rf  dist/",
+    "copy-data": "cp -R src/data dist/data",
+    "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/danyal14/mvno-integration-prototype/issues"
   },
-  "homepage": "https://github.com/danyal14/mvno-integration-prototype#readme"
+  "homepage": "https://github.com/danyal14/mvno-integration-prototype#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "typescript": "^5.8.3"
+  },
+  "type": "module"
 }
