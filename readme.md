@@ -2,7 +2,7 @@
 
 This is a prototype for MVNO integration, demonstrating how to handle MVNO responses and internal responses in a modular way.
 
-# Providor Data
+# Provider Data
 
 test data is located in `src/data/` and is copied to `dist/data/` during the build.
 
